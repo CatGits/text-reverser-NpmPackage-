@@ -9,5 +9,5 @@ module.exports.Reverse = async function(string) {
     for (i = 0; i < keyarray.length; i++) {
         str = str + keyarray[i]
     }
-    console.log(str)
+    return str
 }

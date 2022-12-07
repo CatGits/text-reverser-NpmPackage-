@@ -13,17 +13,24 @@ Easily and quickly allows you to reverse strings, even whole paragraphs!
 
 ```js
 
-ReverseModule = require('text-reverser');
+reverser = require('text-reverser')
 
-ReverseModule.Reverse('string')
+r = reverser.Reverse('string')
+
+r.then((result) => {
+    console.log(result)
+})
 ```
 ## Example
 
 ```js
+reverser = require('text-reverser')
 
-ReverseModule = require('text-reverser');
+r = reverser.Reverse('Hello!')
 
-ReverseModule.Reverse('Hello!')
+r.then((result) => {
+    console.log(result)
+})
 ```
 
 ### Output:

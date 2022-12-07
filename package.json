@@ -1,6 +1,6 @@
 {
     "name": "text-reverser",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Returns reversed version of the string given",
     "main": "index.js",
     "scripts": {
