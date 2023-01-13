@@ -39,5 +39,5 @@ r.then((result) => {
 
 ```
 
-Github Repo: https://github.com/adv66/text-reverser-NpmPackage-
+Github Repo: https://github.com/CatGits/text-reverser-NpmPackage
 
